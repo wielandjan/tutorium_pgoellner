@@ -1,0 +1,1 @@
+Dimension: (8, 7)Wall: (4, 7) eastWall: (4, 6) eastWall: (4, 5) eastWall: (4, 5) southWall: (3, 5) southWall: (2, 5) southWall: (4, 2) eastWall: (4, 1) eastBeeper: (4, 5) 1Beeper: (2, 3) 1Beeper: (2, 2) 1Beeper: (4, 5) 1Beeper: (7, 5) 1Beeper: (6, 2) 1Karel: (2, 6) eastSpeed: 0.50
