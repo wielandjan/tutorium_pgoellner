@@ -1,8 +1,6 @@
 # Einheit 1: Verzweigungen, Schleifen, Datentypen & Casting (Kapitel 1)
 
-Dauer: 90 Min | Format: Papier, ohne IDE/Skript, wie in der Klausur
-Lösungen: siehe `01_Verzweigungen_Schleifen_Datentypen_Loesungen.md`
-Tutor-Vorbereitung: siehe `01_Verzweigungen_Schleifen_Datentypen_Merkzettel.md`
+*Hinweis zu den Code-Kästen: Die Zahlen links sind nur Zeilennummern zur Orientierung (z.B. für Fragen wie "was steht in Zeile 5?") und kein Teil des Codes. Trage deine Lösung in die leeren Zeilen ein.*
 
 ---
 
@@ -13,7 +11,7 @@ Gib jeweils an, ob der Ausdruck `true` oder `false` ergibt. [je 1 Punkt]
 1. `5 > 3 && 2 == 2`
 2. `4 <= 3 || 1 != 2`
 3. `!(5 == 5)`
-4. `3 < 2 ^ 4 > 1` (XOR)
+4. `(3 < 2) ^ (4 > 1)` (XOR)
 
 ---
 
@@ -27,15 +25,15 @@ Vervollständige die Methode `run()`:
 
 ```
  1  void run() {
- 2  
- 3  
- 4  
- 5  
- 6  
- 7  
- 8  
- 9  
-10  
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
 11  }
 ```
 
@@ -49,13 +47,13 @@ Verwende zur Ausgabe die bestehende Methode `printToConsole()`, die nicht verän
 
 ```
  1  void run() {
- 2  
- 3  
- 4  
- 5  
- 6  
+ 2
+ 3
+ 4
+ 5
+ 6
  7  }
- 8  
+ 8
  9  void printToConsole(int x) {
 10      System.out.println(x + " ist durch 3 teilbar");
 11  }
@@ -85,7 +83,7 @@ Gib jeweils an, welcher Wert in die Variable `a` gespeichert wird. Jede Zeile is
 
 ## Aufgabe 6: Theorie — Datentypen (4 Punkte)
 
-1. Nenne zwei primitive Ganzzahl-Datentypen in Java und ihre jeweilige Größe (in Bit). [2 Punkte]
+1. Nenne zwei primitive Ganzzahl-Datentypen in Java. [2 Punkte]
 2. Warum sollte für Berechnungen mit absoluter Genauigkeit (z.B. Finanzen) weder `float` noch `double` verwendet werden? [1 Punkt]
 3. Was passiert bei der automatischen Typumwandlung (Beispiel: `int` → `double`)? [1 Punkt]
 
@@ -94,6 +92,7 @@ Gib jeweils an, welcher Wert in die Variable `a` gespeichert wird. Jede Zeile is
 ## Aufgabe 7: Programmierung — Verschachtelte Kontrollstrukturen (6 Punkte)
 
 Vervollständige die Methode `run()`: Gib für jede Zahl von 1 bis 20 (einschließlich) mittels einer Schleife aus, ob sie durch 3, durch 5, durch beides oder durch keines von beidem teilbar ist:
+
 - durch 3 und 5 teilbar → `"FizzBuzz"`
 - nur durch 3 teilbar → `"Fizz"`
 - nur durch 5 teilbar → `"Buzz"`
@@ -101,17 +100,17 @@ Vervollständige die Methode `run()`: Gib für jede Zahl von 1 bis 20 (einschlie
 
 ```
  1  void run() {
- 2  
- 3  
- 4  
- 5  
- 6  
- 7  
- 8  
- 9  
-10  
-11  
-12  
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
 13  }
 ```
 

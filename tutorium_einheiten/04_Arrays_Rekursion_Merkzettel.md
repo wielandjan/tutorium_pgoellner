@@ -6,15 +6,18 @@ Das ist deine eigene Vorbereitung, keine Studierenden-Unterlage.
 - Was ist ein Array? (Container fester Größe für gleichartige Elemente)
 - Wie greift man auf ein Element zu? (Index, beginnend bei 0!)
 - Was ist eine rekursive Methode?
+- Syntax der ForEach-Schleife (`for (Type element : array) { ... }`) — wird in Aufgabe 4 aktiv abgefragt, taucht sonst nirgends im Aufgabenblatt vor
 
 ## Kernbegriffe, die du erklären musst
 - **Index startet bei 0**: Das erste Element ist `array[0]`, das letzte `array[array.length - 1]`. Off-by-one-Fehler sind der häufigste Fehler bei Arrays.
 - **Feste Größe**: Einmal mit `new Type[size]` instanziiert, kann die Größe nicht mehr verändert werden — das ist der "Hauptnachteil" aus Aufgabe 1.4.
 - **`array.length`**: Attribut (kein Methodenaufruf, also ohne Klammern!) — anders als bei `String.length()`. Das verwirrt oft.
+- **ForEach-Schleife**: `for (int value : numbers) { ... }` iteriert direkt über die Elemente statt über Indizes. In Aufgabe 4 wird die Syntax aktiv abgefragt — unbedingt vor den Programmieraufgaben einmal an der Tafel zeigen, sonst kommt sie in Aufgabe 4 "aus dem Nichts".
 - **Rekursion — die zwei Pflichtbestandteile**:
   1. **Abbruchbedingung** (Base Case): Ohne sie → `StackOverflowError`
   2. **Rekursiver Aufruf**, der das Problem verkleinert (n → n-1)
   Empfehlung: An der Tafel den Call-Stack für ein kleines Beispiel (z.B. `sumUpTo(3)`) Schritt für Schritt aufmalen — hilft enorm beim Verständnis.
+- **Rekursiver Datentyp** (Begriff von "rekursiver Algorithmus" abgrenzen!): Ein Datentyp, der eine Referenz auf sich selbst (oder einen Supertyp von sich) hält — z.B. ein Attribut `Duck mother` in der Klasse `Duck`. Das ist NICHT dasselbe wie eine rekursive Methode, hängt aber oft zusammen (rekursive Datentypen werden häufig mit rekursiven Algorithmen durchlaufen, z.B. um die älteste Vorfahrin zu finden). Kommt in der Probeklausur nicht als eigene Aufgabe vor, ist aber laut Skript ein eigenständiger Begriff, der in Richtig/Falsch-Fragen auftauchen könnte.
 - **Rekursion vs. Iteration**: Kurz erwähnen, dass fast alles, was rekursiv geht, auch mit einer Schleife lösbar wäre — aber in der Klausur ist explizit "rekursiv implementieren" gefordert (siehe Aufgabe 12 in der Probeklausur), dann zählt eine Schleifen-Lösung nicht als richtig.
 
 ## Typische Fehler der Studierenden

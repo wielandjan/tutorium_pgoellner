@@ -1,7 +1,7 @@
 # Musterlösungen — Einheit 3: Klassen, Objekte, Kapselung, Vererbung, Klassendiagramme
 
 **Aufgabe 1:**
-1. Richtig (Konstruktoren werden allerdings nicht "geerbt" im eigentlichen Sinn, sondern über `super()` aufgerufen — im Kontext der Vorlesung als "richtig" zu werten, da Attribute/Methoden zutreffen; ggf. mit Dozent abgleichen)
+1. **Falsch** — Konstruktoren werden NICHT vererbt (nur Attribute und Methoden). Eine Unterklasse muss immer einen eigenen Konstruktor haben (der aber den Konstruktor der Oberklasse über `super(...)` aufrufen kann).
 2. Falsch (Java erlaubt keine Mehrfachvererbung von Klassen)
 3. Falsch (private Attribute sind nur innerhalb der definierenden Klasse zugänglich)
 4. Richtig (Method Overriding)

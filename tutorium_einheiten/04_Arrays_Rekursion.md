@@ -1,8 +1,6 @@
 # Einheit 4: Arrays & Rekursion (Kapitel 3, Teil 1)
 
-Dauer: 90 Min | Format: Papier, ohne IDE/Skript, wie in der Klausur
-Lösungen: siehe `04_Arrays_Rekursion_Loesungen.md`
-Tutor-Vorbereitung: siehe `04_Arrays_Rekursion_Merkzettel.md`
+*Hinweis zu den Code-Kästen: Die Zahlen links sind nur Zeilennummern zur Orientierung (z.B. für Fragen wie "was steht in Zeile 5?") und kein Teil des Codes. Trage deine Lösung in die leeren Zeilen ein.*
 
 ---
 

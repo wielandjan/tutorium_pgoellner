@@ -42,7 +42,7 @@ void run() {
 6. `15.0` (`(int)(3.8) = 3`, `5 * 3 = 15`, als double `15.0`)
 
 **Aufgabe 6:**
-1. z.B. `int` (32 Bit), `long` (64 Bit) — auch `short` (16 Bit) oder `byte` (8 Bit) korrekt
+1. z.B. `int`, `long` — auch `short` oder `byte` korrekt
 2. `float`/`double` sind ungenau (Fließkomma-Rundungsfehler) — für exakte Werte gibt es `BigDecimal`/`BigInteger`
 3. Der kleinere Datentyp wird automatisch verlustfrei in den größeren umgewandelt (gemäß Hierarchie byte→short→int→long→float→double)
 

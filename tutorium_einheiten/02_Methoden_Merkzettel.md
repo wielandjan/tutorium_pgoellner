@@ -6,12 +6,14 @@ Das ist deine eigene Vorbereitung, keine Studierenden-Unterlage.
 - Aufbau einer Methodensignatur: Visibilität, Rückgabetyp, Name, Parameter
 - Was ist der Unterschied zwischen Parameter (in der Signatur) und Argument (beim Aufruf)?
 - Wofür steht `void`?
+- Was ist die Main-Methode und warum ist sie besonders? (Einstiegspunkt jedes Java-Programms, wird beim Start automatisch als erstes aufgerufen)
 
 ## Kernbegriffe, die du erklären musst
 - **Overloading vs. Overriding** — der wichtigste Begriff dieser Einheit, kommt praktisch jedes Semester in der Klausur dran:
   - Overloading: gleicher Name, unterschiedliche Parameter, **gleiche Klasse**, Entscheidung zur Compile-Zeit
   - Overriding: gleicher Name, **gleiche** Signatur, **Ober-/Unterklasse**, Entscheidung zur Laufzeit
   - Merkhilfe: "Overloading = mehr Auswahl in derselben Klasse", "Overriding = ersetzt Verhalten in der Kindklasse"
+- **Main-Methode**: `public static void main(String[] args)` — Einstiegspunkt, wird beim Programmstart als erstes aufgerufen (bei Karel JRobot: erst `main()`, dann `run()`). `args` enthält über die Kommandozeile übergebene Parameter als String-Array. Nicht Teil der Übungsaufgaben dieser Einheit, aber Grundlagenwissen, das in der Klausur als Verständnisfrage vorkommen kann.
 - **Call-by-Value**: Java kopiert immer den Wert. Bei primitiven Typen ist das intuitiv. Bei Objekten wird zwar die Referenz kopiert (Missverständnis: "Objekte werden by reference übergeben" — das stimmt so nicht ganz, es wird eine Kopie der Referenz übergeben). Für diese Einheit reicht die einfache Erklärung mit primitiven Typen.
 - **Methodenaufruf-Reihenfolge (Aufgabe 6)**: Das ist reines "Code im Kopf durchspielen". Empfehlung: An der Tafel wie einen Call-Stack durchgehen — welche Methode ruft was auf, wann kommt der `print`-Befehl dran. Das ist die schwierigste Aufgabe der Einheit, plane dafür mehr Erklärzeit ein.
 

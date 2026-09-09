@@ -1,8 +1,6 @@
 # Einheit 6: Packages/Visibility/Stack&Heap, Testing, Softwarequalität + Wiederholung (Kapitel 4)
 
-Dauer: 90 Min | Format: Papier, ohne IDE/Skript, wie in der Klausur
-Lösungen: siehe `06_Packages_Testing_Qualitaet_Wiederholung_Loesungen.md`
-Tutor-Vorbereitung: siehe `06_Packages_Testing_Qualitaet_Wiederholung_Merkzettel.md`
+*Hinweis zu den Code-Kästen: Die Zahlen links sind nur Zeilennummern zur Orientierung (z.B. für Fragen wie "was steht in Zeile 5?") und kein Teil des Codes. Trage deine Lösung in die leeren Zeilen ein.*
 
 ---
 
