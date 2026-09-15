@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//tutorium_pgoellner//Termine//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:tut-2026-10-13@tutorium-pgoellner
+DTSTAMP:20260915T000000Z
+DTSTART:20261013T173000
+DTEND:20261013T190000
+SUMMARY:Tutorium Programmierung (Wiederholung)
+DESCRIPTION:Wiederholung zur Dozenten-Vorlesung vom Fr 09.10.2026
+END:VEVENT
+BEGIN:VEVENT
+UID:tut-2026-10-26@tutorium-pgoellner
+DTSTAMP:20260915T000000Z
+DTSTART:20261026T164500
+DTEND:20261026T181500
+SUMMARY:Tutorium Programmierung (Wiederholung)
+DESCRIPTION:Wiederholung zur Dozenten-Vorlesung vom Fr 23.10.2026
+END:VEVENT
+BEGIN:VEVENT
+UID:tut-2026-11-02@tutorium-pgoellner
+DTSTAMP:20260915T000000Z
+DTSTART:20261102T164500
+DTEND:20261102T181500
+SUMMARY:Tutorium Programmierung (Wiederholung)
+DESCRIPTION:Wiederholung zur Dozenten-Vorlesung vom Fr 30.10.2026
+END:VEVENT
+BEGIN:VEVENT
+UID:tut-2026-11-12@tutorium-pgoellner
+DTSTAMP:20260915T000000Z
+DTSTART:20261112T173000
+DTEND:20261112T190000
+SUMMARY:Tutorium Programmierung (Wiederholung)
+DESCRIPTION:Wiederholung zur Dozenten-Vorlesung vom Do 05.11.2026 (Mi 11.11. entfaellt wegen anderem Tutorium 16:45-18:15)
+END:VEVENT
+BEGIN:VEVENT
+UID:tut-2026-11-17@tutorium-pgoellner
+DTSTAMP:20260915T000000Z
+DTSTART:20261117T173000
+DTEND:20261117T190000
+SUMMARY:Tutorium Programmierung (Wiederholung)
+DESCRIPTION:Wiederholung zur Dozenten-Vorlesung vom Fr 13.11.2026
+END:VEVENT
+BEGIN:VEVENT
+UID:tut-2026-11-26@tutorium-pgoellner
+DTSTAMP:20260915T000000Z
+DTSTART:20261126T173000
+DTEND:20261126T190000
+SUMMARY:Tutorium Programmierung (Wiederholung)
+DESCRIPTION:Wiederholung zur Dozenten-Vorlesung vom Fr 20.11.2026 (Mi 25.11. entfaellt wegen anderem Tutorium 16:45-18:15)
+END:VEVENT
+BEGIN:VEVENT
+UID:tut-2026-12-07@tutorium-pgoellner
+DTSTAMP:20260915T000000Z
+DTSTART:20261207T164500
+DTEND:20261207T181500
+SUMMARY:Tutorium Programmierung (Wiederholung)
+DESCRIPTION:Wiederholung zur Dozenten-Vorlesung vom Fr 27.11.2026
+END:VEVENT
+END:VCALENDAR
